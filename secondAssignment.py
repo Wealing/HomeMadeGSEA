@@ -8,7 +8,7 @@ Created on Tue Mar 21 10:02:00 2017
 Homemade GSEA
 """
 from __future__ import division
-import csv, scipy, numpy, math, matplotlib
+import csv, scipy.stats, numpy, math, matplotlib
 
 def rankgenes(my_data,group1,group2,GeneNames):
     # rank genes according to differential expression
