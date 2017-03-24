@@ -150,7 +150,7 @@ def secondAssignment(pathwaysFilename, arrayData,randomPermNum=50, outfile_name 
 #    matplotlib.pyplot.plot(trailAll[order[500]])
 
     with open(outfile_name, "w") as text_file:
-        text_file.write('index\tEnrichment\tp-value\tgene set name\tdifferentially expressed genes in gene set\n')
+        text_file.write('index\tEnrichment\tp-value\tgene set name\n')
         for i in order:
             text_file.write(str(i+1) +'\t'+str(ESnormalizedPerPath2[i]) + '\t' + str(pvalueAll[i])+ '\t'+str(pathwayName[i])+  '\n')
            
