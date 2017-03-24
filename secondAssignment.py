@@ -3,7 +3,7 @@
 """
 Created on Tue Mar 21 10:02:00 2017
 
-@author: Daniel Hernandez
+@author: Daniel F Hernández : dan.fhg@gmail.com
 
 Homemade GSEA
 """
